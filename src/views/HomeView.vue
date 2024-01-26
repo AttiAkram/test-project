@@ -1,6 +1,7 @@
 <script setup>
+import Article from "@/components/article.vue";
 </script>
 
 <template>
-  <hi>questa è home view</hi>
+  <Article></Article>
 </template>
