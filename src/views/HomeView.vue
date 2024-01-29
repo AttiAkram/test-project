@@ -1,7 +1,7 @@
 <script setup>
-import Article from "@/components/article.vue";
+import Header from "@/components/header/Header.vue";
 </script>
 
 <template>
-  <Article></Article>
+  <Header></Header>
 </template>
