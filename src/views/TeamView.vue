@@ -1,11 +1,10 @@
 <script setup>
 
+import Card from "@/components/team/Card.vue";
 </script>
 
 <template>
-  <main class="container">
-
-  </main>
+  <Card/>
 </template>
 
 <style scoped>

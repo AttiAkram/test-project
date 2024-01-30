@@ -1,7 +1,13 @@
 <script setup>
-import Header from "@/components/header/Header.vue";
+
+import IntroParagraph from "@/components/main/IntroParagraph.vue";
+import Aritcle from "@/components/main/Aritcle.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <Header></Header>
+  <main class="container">
+    <IntroParagraph/>
+    <Aritcle/>
+  </main>
 </template>
