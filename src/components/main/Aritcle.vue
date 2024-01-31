@@ -1,6 +1,33 @@
 <script setup>
+import {onMounted, ref} from 'vue';
 
-import Twitter from "@/components/main/Twitter.vue";
+const updateTweets = () => {
+  const twitterUrl = "https://twitter.com/NetflixIT";
+  const tweetCount = 3;
+  const widgetHTML = `<a class="twitter-timeline" href="${twitterUrl}" data-tweet-count="${tweetCount}">Tweets by Netflix</a>`;
+  if (tweetContainer.value) {
+    tweetContainer.value.innerHTML = widgetHTML;
+    twttr.widgets.load();
+  }
+};
+const tweetContainer = ref(null);
+onMounted(() => {
+  tweetContainer.value = document.querySelector("#tweet-container");
+  updateTweets();
+});
+
+onMounted(() => {
+  const colArgHeight = ref(null);
+  const colTwt = ref(null);
+
+  // Accessing the height of #Col-arg
+  colArgHeight.value = document.getElementById('Col-arg').offsetHeight;
+
+  // Setting the max-height of #Col-twt
+  if (colTwt.value) {
+    colTwt.value.style.maxHeight = `${colArgHeight.value}px`;
+  }
+});
 </script>
 
 <template>
@@ -55,11 +82,25 @@ import Twitter from "@/components/main/Twitter.vue";
     </div>
 
     <div id="Col-twt" class="col-lg-4 p-3 rounded bg-dark">
-      <Twitter></Twitter>
+      <div class="position-sticky " style="top: 2rem;">
+        <div id="tweet-container"></div>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+.blog-post {
+  margin-bottom: 4rem;
+}
 
+#Col-arg {
+  max-height: min-content;
+}
+
+#Col-twt {
+  height: 120vh;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
 </style>

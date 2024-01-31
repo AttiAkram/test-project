@@ -3,7 +3,7 @@ import Linknavbar from "@/components/header/Linknavbar.vue";
 </script>
 
 <template>
-  <div class="container">
+  <div class="container ">
     <header class="border-bottom lh-1 py-3">
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col-4 pt-1">
@@ -18,8 +18,8 @@ import Linknavbar from "@/components/header/Linknavbar.vue";
       </div>
 
     </header>
-    <div class="nav-scroller px-4 py-1 mb-3 border-bottom">
-      <nav class="nav nav-underline justify-content-between">
+    <div class="nav-scroller px-4 py-1 mb-3 border-bottom border-5">
+      <nav class="nav nav-underline justify-content-between ">
         <Linknavbar></Linknavbar>
       </nav>
     </div>
