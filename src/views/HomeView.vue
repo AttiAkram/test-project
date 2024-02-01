@@ -7,7 +7,7 @@ import Article2 from "@/components/main/Article2.vue";
 </script>
 
 <template>
-  <main class="container p-5">
+  <main class="container p-4">
     <IntroParagraph/>
     <Aritcle/>
     <Article2/>
