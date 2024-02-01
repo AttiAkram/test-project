@@ -6,6 +6,7 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
+  <body>
   <div class=" row  ">
     <div class="col-1 bg-primary">
 
@@ -19,6 +20,7 @@ import Footer from "@/components/Footer.vue";
 
     </div>
   </div>
+  </body>
 </template>
 <style scoped>
 h1, h2, h3, h4, h5, h6 {
@@ -26,6 +28,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 body{
   display: flex;
-  min-width: 500px;
+  min-width: 46rem;
 }
 </style>
