@@ -40,7 +40,7 @@ export default {
 <template>
   <main class="container">
     <div class="justify-content-center">
-      <div v-for="person in people" :key="person.name" class=" border-bottom m-3">
+      <div v-for="person in people" :key="person.name" class="border-bottom m-3">
         <div class="row">
           <img :src="person.user" class="card-img-top col-3" :alt="person.name" style="width: 18rem">
           <div class="card-body col-7">
@@ -51,7 +51,7 @@ export default {
           </div>
         </div>
         <div class="container justify-content-center">
-          <div class="row overflow-hidden g-0 mx-4  d-none d-lg-flex custom-lg-flex">
+          <div class="row  g-0 mx-4  d-none d-lg-flex custom-lg-flex">
             <img :src="person.userimg.img1" class="col-3 m-4" alt="">
             <img :src="person.userimg.img2" class="col-3 m-4" alt="">
             <img :src="person.userimg.img3" class="col-3 m-4" alt="">

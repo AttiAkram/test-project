@@ -11,5 +11,6 @@ import Article2 from "@/components/main/Article2.vue";
     <IntroParagraph/>
     <Aritcle/>
     <Article2/>
+    <Footer/>
   </main>
 </template>

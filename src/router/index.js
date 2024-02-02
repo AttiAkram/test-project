@@ -5,17 +5,18 @@ const router = createRouter({
     routes: [
         {
             path: '/',
-            component: () => import('../views/HomeView.vue')
-        },
-        {
-            path: '/home',
             name: 'home',
             component: () => import('../views/HomeView.vue')
         },
         {
-            path: '/about',
-            name: 'about',
-            component: () => import('../views/AboutView.vue')
+            path: '/team',
+            name: 'team',
+            component: () => import('../views/TeamView.vue')
+        },
+        {
+            path: '/project',
+            name: 'project',
+            component: () => import('../views/ProjectView.vue')
         },
         {
             path: '/info',
@@ -23,14 +24,9 @@ const router = createRouter({
             component: () => import('../views/InfoView.vue')
         },
         {
-            path: '/intro',
-            name: 'intro',
-            component: () => import('../views/IntroView.vue')
-        },
-        {
-            path: '/team',
-            name: 'team',
-            component: () => import('../views/TeamView.vue')
+            path: '/contact',
+            name: 'contact',
+            component: () => import('../views/ContactView.vue')
         }
     ]
 })
