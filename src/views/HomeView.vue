@@ -2,7 +2,6 @@
 
 import IntroParagraph from "@/components/main/IntroParagraph.vue";
 import Aritcle from "@/components/main/Aritcle.vue";
-import Footer from "@/components/Footer.vue";
 import Article2 from "@/components/main/Article2.vue";
 </script>
 
@@ -11,6 +10,6 @@ import Article2 from "@/components/main/Article2.vue";
     <IntroParagraph/>
     <Aritcle/>
     <Article2/>
-    <Footer/>
+
   </main>
 </template>
