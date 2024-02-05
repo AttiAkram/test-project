@@ -1,15 +1,13 @@
 <script setup>
 
 import IntroParagraph from "@/components/main/IntroParagraph.vue";
-import Aritcle from "@/components/main/Aritcle.vue";
-import Article2 from "@/components/main/Article2.vue";
+import Carusel from "@/components/main/Carusel.vue";
 </script>
 
 <template>
-  <main class="container p-4">
+  <Carusel/>
+  <main class="container">
     <IntroParagraph/>
-    <Aritcle/>
-    <Article2/>
 
   </main>
 </template>
