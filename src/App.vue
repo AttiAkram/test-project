@@ -3,7 +3,6 @@ import {RouterView} from 'vue-router'
 import Header from "@/components/header/Header.vue";
 import Footer from "@/components/Footer.vue";
 </script>
-
 <template>
   <body class="bg-image ">
   <div class="m-4 " id="container">
@@ -33,8 +32,4 @@ body {
   box-shadow: 0 0 40px rgba(35, 15, 25, 0.6);
 }
 $color-mode-type: data;
-
-
-
-
 </style>
