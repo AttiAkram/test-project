@@ -4,10 +4,10 @@ export default {
     return {
       people: [
         {
-          name: 'Akram', age: 17, descrizione: 'Ciao, sono Akram ', user: '/img-team/Akram/user.png', userimg: {
-            img1: '/img-team/Akram/user.png',
-            img2: '/img-team/Akram/user.png',
-            img3: '/img-team/Akram/user.png',
+          name: 'Francesca Conti', descrizione: 'My name is Francesca Conti and ever since I decided to study Biology, I have always wanted to work in the environmental field which is why I opted to study for a master’s degree in Biomolecular and Evolutionary Sciences, with a focus on Biodiversity and Evolution. Currently, I am involved in the EASYTRAIN ‘Eco-Innovative Aquaculture System Training’ for European Industrial Doctorates project, and I will have the opportunity to collaborate with several partners, exploring both academic and company realities and expanding my experience in the field of scientific research. Specifically, I will study the underlying molecular mechanisms involved in fish food intake control and investigate the impact of environmental cycles (light and temperature)  on fish production.', user: '/img-team/FrancescaC/fc_cappa.png', userimg: {
+            img1: '/img-team/FrancescaC/Gradient tank-2.png',
+            img2: '/img-team/FrancescaC/Schermata 2023-08-01 alle 15.58.19.png',
+            img3: '/img-team/FrancescaC/Untitled-9.png',
           }
         },
         {

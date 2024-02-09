@@ -9,16 +9,20 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
       <div class="carousel-inner rounded-5">
         <div class="carousel-item active">
-          <img src="https://via.placeholder.com/1920x1080" class="d-block w-100" alt="...">
+          <img src="/carusel-img/img1carousel.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="https://via.placeholder.com/1920x1080" class="d-block w-100" alt="...">
+          <img src="/carusel-img/img2carousel.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="https://via.placeholder.com/1920x1080" class="d-block w-100" alt="...">
+          <img src="/carusel-img/img3carousel.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/carusel-img/img4carousel.png" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
