@@ -40,10 +40,10 @@ export default {
 <template>
   <main class="container">
     <div class="justify-content-center">
-      <div v-for="person in people" :key="person.name" class="border-bottom p-3 m-3 rounded text-body-emphasis bg-body-secondary">
+      <div v-for="person in people" :key="person.name" class="border-bottom p-5 m-3 rounded text-body-emphasis bg-body-secondary">
         <div class="row">
           <!-- Immagine principale -->
-          <img :src="person.user" class="card-img-top col-3 rounded-circle" :alt="person.name" style="width: auto; height: 150px; object-fit: cover;">
+          <img :src="person.user" class="card-img-top col-3 rounded-circle" :alt="person.name" style="width: 250px; height: 250px; object-fit: cover;">
           <div class="card-body col-7">
             <h1 class="card-title">{{ person.name }}</h1>
             <h2 class="card-subtitle mb-2 text-muted">{{ person.age }}</h2>
@@ -54,7 +54,7 @@ export default {
         <!-- Immagini rettangolari -->
         <div class="container justify-content-center">
           <div class="row g-0 mx-4 d-none d-lg-flex custom-lg-flex">
-            <img :src="person.userimg.img1" class="col-3 m-4 rounded" style="height: 15rem; width: auto; object-fit: cover;" alt="">
+            <img :src="person.userimg.img1" class="col-3 m-4 rounded" style="height: 10rem; width: auto; object-fit: cover;" alt="">
             <img :src="person.userimg.img2" class="col-3 m-4 rounded" style="height: 15rem; width: auto; object-fit: cover;" alt="">
             <img :src="person.userimg.img3" class="col-3 m-4 rounded" style="height: 15rem; width: auto; object-fit: cover;" alt="">
           </div>
